@@ -35,7 +35,6 @@ RectTransform:
   - {fileID: 6558497659748338864}
   - {fileID: 4862191213578833506}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -59,6 +58,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -175,7 +175,6 @@ RectTransform:
   m_Children:
   - {fileID: 8305332623862515890}
   m_Father: {fileID: 6590944916765580896}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -266,7 +265,6 @@ RectTransform:
   m_Children:
   - {fileID: 6918955476053734409}
   m_Father: {fileID: 6590944916765580896}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -356,7 +354,7 @@ MonoBehaviour:
   m_Direction: 2
   m_Value: 0
   m_Size: 1
-  m_NumberOfSteps: 0
+  m_NumberOfSteps: 10
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -371,6 +369,7 @@ GameObject:
   - component: {fileID: 8305332623862515890}
   - component: {fileID: 1950780776956029146}
   - component: {fileID: 5201841653902676388}
+  - component: {fileID: 8355288944334896650}
   m_Layer: 5
   m_Name: ActionButtonGrid
   m_TagString: Untagged
@@ -391,7 +390,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6723471296242924010}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -430,6 +428,20 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 1
   m_ConstraintCount: 1
+--- !u!114 &8355288944334896650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482731236169119999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 2
+  m_VerticalFit: 2
 --- !u!1 &1761851645609681221
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,12 +472,11 @@ RectTransform:
   m_Children:
   - {fileID: 192102632413220211}
   m_Father: {fileID: 5960116764719319214}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0.0000038146973}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1845360417332528955
 GameObject:
@@ -501,7 +512,6 @@ RectTransform:
   - {fileID: 6723471296242924010}
   - {fileID: 5960116764719319214}
   m_Father: {fileID: 6558497659748338864}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -559,13 +569,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Content: {fileID: 8305332623862515890}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 10
   m_Viewport: {fileID: 6723471296242924010}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 6742692961535325974}
@@ -611,7 +621,6 @@ RectTransform:
   - {fileID: 4007528679926274682}
   - {fileID: 6160334135810013318}
   m_Father: {fileID: 224495724709133202}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -673,6 +682,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -726,7 +736,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4862191213578833506}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -806,12 +815,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6918955476053734409}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 100}
-  m_SizeDelta: {x: 0, y: -200}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2317690968611533225
 CanvasRenderer:
@@ -886,7 +894,6 @@ RectTransform:
   - {fileID: 1547578038792156041}
   - {fileID: 6590944916765580896}
   m_Father: {fileID: 224495724709133202}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -948,6 +955,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1001,7 +1009,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4862191213578833506}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -1100,12 +1107,12 @@ PrefabInstance:
     - target: {fileID: 224836483730127514, guid: ff0e96efeb02b084b8c12eda2f762238,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 400
+      value: 430
       objectReference: {fileID: 0}
     - target: {fileID: 224836483730127514, guid: ff0e96efeb02b084b8c12eda2f762238,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 400
+      value: 430
       objectReference: {fileID: 0}
     - target: {fileID: 224836483730127514, guid: ff0e96efeb02b084b8c12eda2f762238,
         type: 3}

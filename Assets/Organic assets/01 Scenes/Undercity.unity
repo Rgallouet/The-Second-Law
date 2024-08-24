@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,6 +134,11 @@ PrefabInstance:
     - target: {fileID: 1913446162608904, guid: 87898850c19b3514f8d3fd25acae4a29, type: 3}
       propertyPath: m_Name
       value: CityCharacterMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 114545145283721978, guid: 87898850c19b3514f8d3fd25acae4a29,
+        type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114712003707150006, guid: 87898850c19b3514f8d3fd25acae4a29,
         type: 3}
@@ -316,6 +320,11 @@ PrefabInstance:
       propertyPath: mainCamera
       value: 
       objectReference: {fileID: 1291555431}
+    - target: {fileID: 114986028269167530, guid: 0429e6b931d35f745bc74a7df33c6a40,
+        type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 224753018038300790, guid: 0429e6b931d35f745bc74a7df33c6a40,
         type: 3}
       propertyPath: m_Pivot.x
@@ -421,6 +430,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5c503d3c26040a43b71dbb27133a111, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &409733312 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114935595497743484, guid: 8519e927bc42cc44592237d8ec82259f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1334961106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &434813531 stripped
@@ -619,6 +640,36 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6723471296242924010, guid: 8519e927bc42cc44592237d8ec82259f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6723471296242924010, guid: 8519e927bc42cc44592237d8ec82259f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6723471296242924010, guid: 8519e927bc42cc44592237d8ec82259f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742692961535325974, guid: 8519e927bc42cc44592237d8ec82259f,
+        type: 3}
+      propertyPath: m_Size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742692961535325974, guid: 8519e927bc42cc44592237d8ec82259f,
+        type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742692961535325974, guid: 8519e927bc42cc44592237d8ec82259f,
+        type: 3}
+      propertyPath: m_NumberOfSteps
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 7401634732364088168, guid: 8519e927bc42cc44592237d8ec82259f,
         type: 3}
       propertyPath: cubeManager
@@ -629,6 +680,21 @@ PrefabInstance:
       propertyPath: windowsCamera
       value: 
       objectReference: {fileID: 1647503458}
+    - target: {fileID: 8305332623862515890, guid: 8519e927bc42cc44592237d8ec82259f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305332623862515890, guid: 8519e927bc42cc44592237d8ec82259f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305332623862515890, guid: 8519e927bc42cc44592237d8ec82259f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -725,6 +791,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf9ed1ac5bff6af42b23e077a86d0922, type: 3}
+--- !u!114 &1557888814 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3006640927800491782, guid: a0dbdb2c41f6a1d4a846ce7be91b87d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3006640926767212683}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1647503458 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3006640927921404655, guid: a0dbdb2c41f6a1d4a846ce7be91b87d5,
@@ -1451,9 +1529,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3006640927921404655, guid: a0dbdb2c41f6a1d4a846ce7be91b87d5,
         type: 3}
+      propertyPath: raycaster
+      value: 
+      objectReference: {fileID: 409733312}
+    - target: {fileID: 3006640927921404655, guid: a0dbdb2c41f6a1d4a846ce7be91b87d5,
+        type: 3}
       propertyPath: cityButtons
       value: 
       objectReference: {fileID: 434813531}
+    - target: {fileID: 3006640927921404655, guid: a0dbdb2c41f6a1d4a846ce7be91b87d5,
+        type: 3}
+      propertyPath: eventSystem
+      value: 
+      objectReference: {fileID: 1557888814}
     - target: {fileID: 3006640927921404655, guid: a0dbdb2c41f6a1d4a846ce7be91b87d5,
         type: 3}
       propertyPath: leftJoystick
@@ -1474,3 +1562,14 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0dbdb2c41f6a1d4a846ce7be91b87d5, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 3006640926767212683}
+  - {fileID: 191595501}
+  - {fileID: 51504529}
+  - {fileID: 1334961106}
+  - {fileID: 2042662157}
+  - {fileID: 1386554192}
+  - {fileID: 695245916412046573}

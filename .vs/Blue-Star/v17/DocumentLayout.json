@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "C:\\Repo\\Blue-Star\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|c:\\repo\\blue-star\\assets\\organic assets\\05 scripts\\01 - ui\\03 citymenu\\explorationmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:assets\\organic assets\\05 scripts\\01 - ui\\03 citymenu\\explorationmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\assets\\organic assets\\05 scripts\\10 - environment\\cubemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:assets\\organic assets\\05 scripts\\10 - environment\\cubemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repo\\Blue-Star\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\ExecuteEvents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\ExecuteEvents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\assets\\organic assets\\05 scripts\\09 - data io\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:assets\\organic assets\\05 scripts\\09 - data io\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repo\\Blue-Star\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\ScrollRect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\ScrollRect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\assets\\organic assets\\05 scripts\\08 - controls\\windowscamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|c:\\repo\\blue-star\\assets\\organic assets\\05 scripts\\08 - controls\\windowscamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:assets\\organic assets\\05 scripts\\08 - controls\\windowscamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repo\\Blue-Star\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\EventSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\EventSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\03 CityMenu\\ExplorationMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Organic assets\\05 Scripts\\01 - UI\\03 CityMenu\\ExplorationMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\00 UIManagers\\CityGUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Organic assets\\05 Scripts\\01 - UI\\00 UIManagers\\CityGUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\10 - Environment\\CubeManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Organic assets\\05 Scripts\\10 - Environment\\CubeManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repo\\Blue-Star\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\GridLayoutGroupEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\GridLayoutGroupEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\assets\\organic assets\\05 scripts\\01 - ui\\01 startingmenu\\newgamemenubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:assets\\organic assets\\05 scripts\\01 - ui\\01 startingmenu\\newgamemenubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\assets\\organic assets\\05 scripts\\03 - savingandloading\\saveandload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:assets\\organic assets\\05 scripts\\03 - savingandloading\\saveandload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\assets\\organic assets\\05 scripts\\08 - controls\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:assets\\organic assets\\05 scripts\\08 - controls\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\14 - Map\\ZoneProbabilitiesDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,28 +35,44 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Organic assets\\05 Scripts\\14 - Map\\TileCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\assets\\organic assets\\05 scripts\\10 - environment\\sortinglayermobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:assets\\organic assets\\05 scripts\\10 - environment\\sortinglayermobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\10 - Environment\\SortingLayerMobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Organic assets\\05 Scripts\\10 - Environment\\SortingLayerMobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\assets\\organic assets\\05 scripts\\10 - environment\\sortinglayerfixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:assets\\organic assets\\05 scripts\\10 - environment\\sortinglayerfixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\01 StartingMenu\\NewGameMenuButtons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Organic assets\\05 Scripts\\01 - UI\\01 StartingMenu\\NewGameMenuButtons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\assets\\organic assets\\05 scripts\\01 - ui\\01 startingmenu\\resetgamemenubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:assets\\organic assets\\05 scripts\\01 - ui\\01 startingmenu\\resetgamemenubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\09 - data IO\\DataBaseManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Organic assets\\05 Scripts\\09 - data IO\\DataBaseManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\assets\\organic assets\\05 scripts\\01 - ui\\00 uimanagers\\menugui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:assets\\organic assets\\05 scripts\\01 - ui\\00 uimanagers\\menugui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\08 - Controls\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Organic assets\\05 Scripts\\08 - Controls\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\assets\\organic assets\\05 scripts\\01 - ui\\01 startingmenu\\gamemenubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:assets\\organic assets\\05 scripts\\01 - ui\\01 startingmenu\\gamemenubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\10 - Environment\\SortingLayerFixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Organic assets\\05 Scripts\\10 - Environment\\SortingLayerFixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\assets\\organic assets\\05 scripts\\02 - gameinformation\\gameinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:assets\\organic assets\\05 scripts\\02 - gameinformation\\gameinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\01 StartingMenu\\ResetGameMenuButtons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Organic assets\\05 Scripts\\01 - UI\\01 StartingMenu\\ResetGameMenuButtons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\00 UIManagers\\MenuGUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Organic assets\\05 Scripts\\01 - UI\\00 UIManagers\\MenuGUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\01 StartingMenu\\GameMenuButtons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Organic assets\\05 Scripts\\01 - UI\\01 StartingMenu\\GameMenuButtons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\03 - SavingandLoading\\SaveAndLoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Organic assets\\05 Scripts\\03 - SavingandLoading\\SaveAndLoad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\02 - GameInformation\\GameInformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598EFA8-AB65-CB11-2DAB-82F1DD69A9F5}|Assembly-CSharp.csproj|solutionrelative:Assets\\Organic assets\\05 Scripts\\02 - GameInformation\\GameInformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,43 +90,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExecuteEvents.cs",
-              "DocumentMoniker": "C:\\Repo\\Blue-Star\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\ExecuteEvents.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\ExecuteEvents.cs",
-              "ToolTip": "C:\\Repo\\Blue-Star\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\ExecuteEvents.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\ExecuteEvents.cs",
-              "ViewState": "AQIAAPkAAAAAAAAAAAAewA8BAAAsAAAA",
+              "DocumentIndex": 1,
+              "Title": "EventSystem.cs",
+              "DocumentMoniker": "C:\\Repo\\Blue-Star\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\EventSystem.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\EventSystem.cs",
+              "ToolTip": "C:\\Repo\\Blue-Star\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\EventSystem.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\EventSystem.cs",
+              "ViewState": "AQIAACkBAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T13:18:28.585Z"
+              "WhenOpened": "2024-08-03T07:27:14.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ScrollRect.cs",
-              "DocumentMoniker": "C:\\Repo\\Blue-Star\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\ScrollRect.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\ScrollRect.cs",
-              "ToolTip": "C:\\Repo\\Blue-Star\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\ScrollRect.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\ScrollRect.cs",
-              "ViewState": "AQIAABgEAAAAAAAAAAAewCUEAABLAAAA",
+              "DocumentIndex": 3,
+              "Title": "CityGUI.cs",
+              "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\00 UIManagers\\CityGUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\01 - UI\\00 UIManagers\\CityGUI.cs",
+              "ToolTip": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\00 UIManagers\\CityGUI.cs",
+              "RelativeToolTip": "Assets\\Organic assets\\05 Scripts\\01 - UI\\00 UIManagers\\CityGUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T05:20:34.499Z"
+              "WhenOpened": "2024-07-27T08:01:37.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "WindowsCamera.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\08 - Controls\\WindowsCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\08 - Controls\\WindowsCamera.cs",
               "ToolTip": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\08 - Controls\\WindowsCamera.cs",
               "RelativeToolTip": "Assets\\Organic assets\\05 Scripts\\08 - Controls\\WindowsCamera.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAIAwwHcAAAAAAAAA",
+              "ViewState": "AgIAABgBAAAAAAAAAAAuwDQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T04:13:33.707Z"
+              "WhenOpened": "2024-06-16T04:13:33.707Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "GridLayoutGroupEditor.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\GridLayoutGroupEditor.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Editor\\UI\\GridLayoutGroupEditor.cs",
@@ -138,32 +139,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ExplorationMenu.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\03 CityMenu\\ExplorationMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\01 - UI\\03 CityMenu\\ExplorationMenu.cs",
               "ToolTip": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\03 CityMenu\\ExplorationMenu.cs",
               "RelativeToolTip": "Assets\\Organic assets\\05 Scripts\\01 - UI\\03 CityMenu\\ExplorationMenu.cs",
-              "ViewState": "AQIAACEBAAAAAAAAAAAzwDUBAAAKAAAA",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAewNUAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T04:35:46.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T04:35:46.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CubeManager.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\10 - Environment\\CubeManager.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\10 - Environment\\CubeManager.cs",
               "ToolTip": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\10 - Environment\\CubeManager.cs",
               "RelativeToolTip": "Assets\\Organic assets\\05 Scripts\\10 - Environment\\CubeManager.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAqwH8AAAAxAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAewE0AAACqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-25T08:37:22.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "SortingLayerMobile.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\10 - Environment\\SortingLayerMobile.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\10 - Environment\\SortingLayerMobile.cs",
@@ -175,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "TileCode.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\14 - Map\\TileCode.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\14 - Map\\TileCode.cs",
@@ -186,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "NewGameMenuButtons.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\01 StartingMenu\\NewGameMenuButtons.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\01 - UI\\01 StartingMenu\\NewGameMenuButtons.cs",
@@ -198,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "DataBaseManager.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\09 - data IO\\DataBaseManager.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\09 - data IO\\DataBaseManager.cs",
@@ -210,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\08 - Controls\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\08 - Controls\\PlayerController.cs",
@@ -222,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "SortingLayerFixed.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\10 - Environment\\SortingLayerFixed.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\10 - Environment\\SortingLayerFixed.cs",
@@ -234,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "ResetGameMenuButtons.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\01 StartingMenu\\ResetGameMenuButtons.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\01 - UI\\01 StartingMenu\\ResetGameMenuButtons.cs",
@@ -246,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "MenuGUI.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\00 UIManagers\\MenuGUI.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\01 - UI\\00 UIManagers\\MenuGUI.cs",
@@ -258,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "GameMenuButtons.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\01 - UI\\01 StartingMenu\\GameMenuButtons.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\01 - UI\\01 StartingMenu\\GameMenuButtons.cs",
@@ -270,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "SaveAndLoad.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\03 - SavingandLoading\\SaveAndLoad.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\03 - SavingandLoading\\SaveAndLoad.cs",
@@ -282,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "ZoneProbabilitiesDetail.cs",
               "DocumentMoniker": "C:\\Repo\\Blue-Star\\Assets\\Organic assets\\05 Scripts\\14 - Map\\ZoneProbabilitiesDetail.cs",
               "RelativeDocumentMoniker": "Assets\\Organic assets\\05 Scripts\\14 - Map\\ZoneProbabilitiesDetail.cs",

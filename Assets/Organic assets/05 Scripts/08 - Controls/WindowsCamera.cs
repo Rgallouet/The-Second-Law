@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using static UnityEngine.GraphicsBuffer;
+using System.Collections.Generic;
+using UnityEngine.EventSystems;
 
 public class WindowsCamera : MonoBehaviour
 {
@@ -14,13 +16,16 @@ public class WindowsCamera : MonoBehaviour
     public LeftJoystick leftJoystick;
     public CityButtons cityButtons;
     public GameObject characterMoving;
-
     public Transform skyBoxCameraTracker;
+    private Camera cameraObject;
+
 
     // inputs
     public int touch;
     public float zoom;
     public Vector2[] touchPosition;
+    public EventSystem eventSystem;
+
 
     // memory
     private Vector2 oldTouchPosition_0;
@@ -43,6 +48,7 @@ public class WindowsCamera : MonoBehaviour
     private bool Objectselected;
     private bool LiftingFinger;
     private bool back;
+    public bool interactingOnUI;
 
 
     // zoom limits
@@ -59,6 +65,9 @@ public class WindowsCamera : MonoBehaviour
     private void Start()
     {
         if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer) isMobile = true;
+
+        cameraObject = GetComponent<Camera>();
+        interactingOnUI = true;
 
     }
 
@@ -120,10 +129,10 @@ public class WindowsCamera : MonoBehaviour
 
 
         //select only if i touched and didn't move until i lifted my finger
-        if (HasTheTouchMoved == false && LiftingFinger == true ) SelectObject(touchPosition[0]);
+        if (HasTheTouchMoved == false && LiftingFinger == true && interactingOnUI == false) SelectObject(touchPosition[0]);
 
         //deselect if I start moving around and I am in the SelectionOnly Mode
-        else if (HasTheTouchMoved == true && Objectselected == true && touch == 1) DeselectCamera();
+        else if (HasTheTouchMoved == true && Objectselected == true && touch == 1 && interactingOnUI == false) DeselectCamera();
 
         // Tracking the character selected if moving with joystick (depreciated) or if in menu exploration
         if (explorationMenu.explorationMenuOpened == true)
@@ -143,7 +152,7 @@ public class WindowsCamera : MonoBehaviour
 
 
         // Moving around with one finger on the screen
-        if (touch == 1 && leftJoystick.moveDetectedOnJoystick<=1)
+        if (touch == 1 && leftJoystick.moveDetectedOnJoystick<=1 && interactingOnUI == false)
         {
             // resetting the camera to free movement
             leftJoystick.moveDetectedOnJoystick = 0;
@@ -165,7 +174,7 @@ public class WindowsCamera : MonoBehaviour
         }
 
         // If joystick was released, then freeing up camera for next touch
-        if (leftJoystick.moveDetectedOnJoystick == 2) leftJoystick.moveDetectedOnJoystick = 1;
+        if (leftJoystick.moveDetectedOnJoystick == 2 && interactingOnUI == false) leftJoystick.moveDetectedOnJoystick = 1;
 
         // Zooming and dezooming
         if (zoom != 0)
@@ -196,7 +205,34 @@ public class WindowsCamera : MonoBehaviour
         if (touch == 1)
         {
             touchPosition[0] = Input.GetTouch(0).position;
-            if (oldTouchPosition_0 == Vector2.zero) { firstPosition= touchPosition[0]; oldTouchPosition_0 = touchPosition[0];}
+            Debug.Log("First click, and is old touchpoint zero: "+ oldTouchPosition_0.x+" and " + oldTouchPosition_0.y);
+
+            if (oldTouchPosition_0 == Vector2.zero) 
+            { 
+                firstPosition= touchPosition[0]; 
+                oldTouchPosition_0 = touchPosition[0];
+
+
+                //Debug.Log("Casting a ray");
+                PointerEventData pointerEventData = new(eventSystem)
+                {
+                    position = touchPosition[0]
+                };
+
+                List<RaycastResult> results = new();
+                eventSystem.RaycastAll(pointerEventData, results);
+                //Debug.Log("Casted a ray at x=" + touchPosition[0].x + " and y=" + touchPosition[0].y);
+
+                //foreach (RaycastResult result in results)
+                //{
+                //    Debug.Log("Hit " + result.gameObject.name);
+                //}
+
+
+                if (results.Count >= 1) interactingOnUI = true;
+                else interactingOnUI = false;
+
+            }
             if (oldTouchPosition_1 != Vector2.zero) oldTouchPosition_1 = Vector2.zero;
             
 
@@ -233,6 +269,7 @@ public class WindowsCamera : MonoBehaviour
 
         TouchMoved();
 
+        
 
     }
 
@@ -243,7 +280,33 @@ public class WindowsCamera : MonoBehaviour
         {
             touch = 1;
             touchPosition[0] = Input.mousePosition;
-            if (oldTouchPosition_0 == Vector2.zero) { oldTouchPosition_0 = touchPosition[0]; firstPosition = touchPosition[0]; }
+
+            if (oldTouchPosition_0 == Vector2.zero) 
+            { 
+                oldTouchPosition_0 = touchPosition[0];
+                firstPosition = touchPosition[0];
+
+                //interactingOnUI = ;
+                Debug.Log("Casting a ray");
+                PointerEventData pointerEventData = new(eventSystem)
+                {
+                    position = touchPosition[0]
+                };
+
+                List<RaycastResult> results = new();
+                eventSystem.RaycastAll(pointerEventData, results);
+                Debug.Log("Casted a ray at x="+ touchPosition[0].x + " and y="+ touchPosition[0].y);
+
+                foreach (RaycastResult result in results)
+                {
+                    Debug.Log("Hit " + result.gameObject.name);
+                }
+
+
+                if (results.Count>=1) interactingOnUI = true;
+                else interactingOnUI = false;
+            }
+
             if (oldTouchPosition_1 != Vector2.zero) oldTouchPosition_1 = Vector2.zero;
         }
         else
@@ -252,6 +315,7 @@ public class WindowsCamera : MonoBehaviour
             oldTouchPosition_0 = Vector2.zero;
             oldTouchPosition_1 = Vector2.zero;
             firstPosition = Vector2.zero;
+            
 
         }
 
@@ -262,6 +326,8 @@ public class WindowsCamera : MonoBehaviour
         back = Input.GetMouseButtonUp(1);
 
         TouchMoved();
+
+
     }
 
     void TouchMoved() {

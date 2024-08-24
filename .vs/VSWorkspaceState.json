@@ -4,8 +4,9 @@
     "\\Assets",
     "\\Assets\\Organic assets",
     "\\Assets\\Organic assets\\05 Scripts",
+    "\\Assets\\Organic assets\\05 Scripts\\08 - Controls",
     "\\Assets\\Organic assets\\05 Scripts\\10 - Environment"
   ],
-  "SelectedNode": "\\Assets\\Organic assets\\05 Scripts\\10 - Environment\\CubeManager.cs",
+  "SelectedNode": "\\Assets\\Organic assets\\05 Scripts\\08 - Controls\\WindowsCamera.cs",
   "PreviewInSolutionExplorer": true
 }
