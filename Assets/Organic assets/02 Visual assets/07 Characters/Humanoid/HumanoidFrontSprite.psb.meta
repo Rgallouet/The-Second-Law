@@ -703,6 +703,90 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 189, y: 103}
     spritePosition: {x: 0, y: 89}
+  - name: RightLegging_001
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 854
+      width: 46
+      height: 65
+    spriteID: 4a390d339b7d3d346a3ea84fc896a054
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 854}
+    spritePosition: {x: 25, y: 60}
+  - name: RightLegging_000
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 927
+      width: 46
+      height: 65
+    spriteID: 47ac85e9102af8845b99186298f3e793
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 927}
+    spritePosition: {x: 25, y: 60}
+  - name: LeftLegging_001
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 327
+      y: 296
+      width: 44
+      height: 62
+    spriteID: 8fdbc17c0557b3141b970184dada45fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 327, y: 296}
+    spritePosition: {x: 51, y: 60}
+  - name: LeftLegging_000
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 327
+      y: 366
+      width: 44
+      height: 62
+    spriteID: def83b8d34d950844a1b9490486542f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 327, y: 366}
+    spritePosition: {x: 51, y: 60}
   - name: Body_007
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -787,48 +871,6 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 189, y: 499}
     spritePosition: {x: 0, y: 89}
-  - name: RightLegging_001
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 111
-      y: 854
-      width: 46
-      height: 65
-    spriteID: 4a390d339b7d3d346a3ea84fc896a054
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 111, y: 854}
-    spritePosition: {x: 25, y: 60}
-  - name: RightLegging_000
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 111
-      y: 927
-      width: 46
-      height: 65
-    spriteID: 47ac85e9102af8845b99186298f3e793
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 111, y: 927}
-    spritePosition: {x: 25, y: 60}
   - name: RightLeg_007
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -913,48 +955,6 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 327, y: 223}
     spritePosition: {x: 25, y: 60}
-  - name: LeftLegging_001
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 327
-      y: 296
-      width: 44
-      height: 62
-    spriteID: 8fdbc17c0557b3141b970184dada45fe
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 327, y: 296}
-    spritePosition: {x: 51, y: 60}
-  - name: LeftLegging_000
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 327
-      y: 366
-      width: 44
-      height: 62
-    spriteID: def83b8d34d950844a1b9490486542f2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 327, y: 366}
-    spritePosition: {x: 51, y: 60}
   - name: LeftLeg_007
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3007,56 +3007,6 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Body
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: b82879b91375c0843a6643036be7dbb8
-    layerID: 108
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: Body_007
-    spriteName: Body_007
-    isGroup: 0
-    parentIndex: 39
-    spriteID: c04594b3739d6a34e8e9b415fff35578
-    layerID: 139
-    mosaicPosition: {x: 189, y: 202}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Body_002
-    spriteName: Body_002
-    isGroup: 0
-    parentIndex: 39
-    spriteID: 781734a875693a34f904a124ca3a48b0
-    layerID: 268
-    mosaicPosition: {x: 189, y: 301}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Body_001
-    spriteName: Body_001
-    isGroup: 0
-    parentIndex: 39
-    spriteID: fc6871aaab33a0646b1912e7bed26909
-    layerID: 93
-    mosaicPosition: {x: 189, y: 400}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Body_000
-    spriteName: Body_000
-    isGroup: 0
-    parentIndex: 39
-    spriteID: 1dd039f7c99bc30438a793cc9ca35619
-    layerID: 151
-    mosaicPosition: {x: 189, y: 499}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
   - name: RightLegging
     spriteName: 
     isGroup: 1
@@ -3070,7 +3020,7 @@ ScriptedImporter:
   - name: RightLegging_001
     spriteName: RightLegging_001
     isGroup: 0
-    parentIndex: 44
+    parentIndex: 39
     spriteID: 4a390d339b7d3d346a3ea84fc896a054
     layerID: 189
     mosaicPosition: {x: 111, y: 854}
@@ -3080,60 +3030,10 @@ ScriptedImporter:
   - name: RightLegging_000
     spriteName: RightLegging_000
     isGroup: 0
-    parentIndex: 44
+    parentIndex: 39
     spriteID: 47ac85e9102af8845b99186298f3e793
     layerID: 188
     mosaicPosition: {x: 111, y: 927}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: RightLeg
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: f4b114bb84e746046aa6c2447002724b
-    layerID: 129
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: RightLeg_007
-    spriteName: RightLeg_007
-    isGroup: 0
-    parentIndex: 47
-    spriteID: ef34303a1c632f44bacf14353145c6c7
-    layerID: 140
-    mosaicPosition: {x: 327, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: RightLeg_002
-    spriteName: RightLeg_002
-    isGroup: 0
-    parentIndex: 47
-    spriteID: 03e6909b1f35ca24b9529a7eabed56e4
-    layerID: 269
-    mosaicPosition: {x: 327, y: 77}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: RightLeg_001
-    spriteName: RightLeg_001
-    isGroup: 0
-    parentIndex: 47
-    spriteID: 857e48462eb717048a02ef1f2458d67e
-    layerID: 105
-    mosaicPosition: {x: 327, y: 150}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: RightLeg_000
-    spriteName: RightLeg_000
-    isGroup: 0
-    parentIndex: 47
-    spriteID: 771d43c2596481d4f866ac7da6493f35
-    layerID: 152
-    mosaicPosition: {x: 327, y: 223}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -3150,7 +3050,7 @@ ScriptedImporter:
   - name: LeftLegging_001
     spriteName: LeftLegging_001
     isGroup: 0
-    parentIndex: 52
+    parentIndex: 42
     spriteID: 8fdbc17c0557b3141b970184dada45fe
     layerID: 193
     mosaicPosition: {x: 327, y: 296}
@@ -3160,10 +3060,110 @@ ScriptedImporter:
   - name: LeftLegging_000
     spriteName: LeftLegging_000
     isGroup: 0
-    parentIndex: 52
+    parentIndex: 42
     spriteID: def83b8d34d950844a1b9490486542f2
     layerID: 192
     mosaicPosition: {x: 327, y: 366}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Body
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: b82879b91375c0843a6643036be7dbb8
+    layerID: 108
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Body_007
+    spriteName: Body_007
+    isGroup: 0
+    parentIndex: 45
+    spriteID: c04594b3739d6a34e8e9b415fff35578
+    layerID: 139
+    mosaicPosition: {x: 189, y: 202}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Body_002
+    spriteName: Body_002
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 781734a875693a34f904a124ca3a48b0
+    layerID: 268
+    mosaicPosition: {x: 189, y: 301}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Body_001
+    spriteName: Body_001
+    isGroup: 0
+    parentIndex: 45
+    spriteID: fc6871aaab33a0646b1912e7bed26909
+    layerID: 93
+    mosaicPosition: {x: 189, y: 400}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Body_000
+    spriteName: Body_000
+    isGroup: 0
+    parentIndex: 45
+    spriteID: 1dd039f7c99bc30438a793cc9ca35619
+    layerID: 151
+    mosaicPosition: {x: 189, y: 499}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: RightLeg
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: f4b114bb84e746046aa6c2447002724b
+    layerID: 129
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: RightLeg_007
+    spriteName: RightLeg_007
+    isGroup: 0
+    parentIndex: 50
+    spriteID: ef34303a1c632f44bacf14353145c6c7
+    layerID: 140
+    mosaicPosition: {x: 327, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: RightLeg_002
+    spriteName: RightLeg_002
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 03e6909b1f35ca24b9529a7eabed56e4
+    layerID: 269
+    mosaicPosition: {x: 327, y: 77}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: RightLeg_001
+    spriteName: RightLeg_001
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 857e48462eb717048a02ef1f2458d67e
+    layerID: 105
+    mosaicPosition: {x: 327, y: 150}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: RightLeg_000
+    spriteName: RightLeg_000
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 771d43c2596481d4f866ac7da6493f35
+    layerID: 152
+    mosaicPosition: {x: 327, y: 223}
     flatten: 0
     isImported: 1
     isVisible: 1
